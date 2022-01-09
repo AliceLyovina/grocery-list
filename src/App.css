@@ -1,0 +1,61 @@
+body {
+  background-color: #62c2c8;
+}
+
+.app {
+  background-color: #ffffff;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  width: 70%;
+}
+
+.btnAdd {
+  background-color: #65aa06;
+  margin-top: 5px;
+}
+
+.btnDel {
+  background-color: #d30100;
+  margin-bottom: 5px;
+}
+
+img {
+  border-radius: 50%;
+}
